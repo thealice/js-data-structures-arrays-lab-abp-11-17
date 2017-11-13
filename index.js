@@ -25,6 +25,6 @@ function removeLastDriver() {
   return lastDriverRemoved;
 }
 function removeFirstDriver() {
-  const firstDriverRemoved = drivers.slice(0, 1);
+  const firstDriverRemoved = drivers.slice(1);
   return firstDriverRemoved;
 }
