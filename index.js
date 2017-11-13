@@ -13,6 +13,6 @@ function destructivelyRemoveFirstDriver() {
   return drivers.shift();
 }
 function appendDriver() {
-  const newDrivers = [...drivers, 'Broom'];
-  return newDrivers;
+  return const newDrivers = [...drivers, 'Broom'];
+  // return newDrivers;
 }
