@@ -12,6 +12,6 @@ function destructivelyRemoveLastDriver() {
 function destructivelyRemoveFirstDriver() {
   return drivers.shift();
 }
-function appendDriver(name) {
+function appendDriver() {
   return drivers.slice(...drivers, 'Broom');
 }
